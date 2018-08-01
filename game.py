@@ -95,10 +95,10 @@ apple = Apple([0, 0])
 apple.respawn()
 
 # Keycodes for arrow keys
-LEFT_ARROW = 37
-UP_ARROW = 38
-RIGHT_ARROW = 39
-DOWN_ARROW = 40
+LEFT_ARROW = 113  # 37 for PCs
+UP_ARROW = 111  # 38 for PCs
+RIGHT_ARROW = 114  # 39 for PCs
+DOWN_ARROW = 116  # 40 for PCs
 
 
 # Runs when arrow keys are pressed; changes direction of snake
